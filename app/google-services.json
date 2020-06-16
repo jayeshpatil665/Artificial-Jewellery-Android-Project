@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "341631409007",
+    "firebase_url": "https://artificaljewellery-f115f.firebaseio.com",
+    "project_id": "artificaljewellery-f115f",
+    "storage_bucket": "artificaljewellery-f115f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341631409007:android:a4ff689497a673c888269a",
+        "android_client_info": {
+          "package_name": "in.specialsoft.artificaljewellery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341631409007-844oc8gsosa9f8ths3tksed6r7d1141a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.specialsoft.artificaljewellery",
+            "certificate_hash": "03d4445f9f8c6cef2a0be39d3c1d42c019768733"
+          }
+        },
+        {
+          "client_id": "341631409007-unpjap7lgpte8fpq85gd356oruqbfra7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVmbayoNB5ACoNh0or6Y-Rs7uFhmfoNBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341631409007-unpjap7lgpte8fpq85gd356oruqbfra7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

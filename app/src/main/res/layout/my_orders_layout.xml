@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:elevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/my_orders_oid"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Order ID : "
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:id="@+id/my_orders_state"
+            android:layout_below="@+id/my_orders_oid"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="State : "
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

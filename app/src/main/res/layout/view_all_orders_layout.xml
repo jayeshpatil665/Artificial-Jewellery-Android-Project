@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/admin_view_orders_id"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Order ID : "
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/admin_view_orders_state"
+            android:layout_below="@+id/admin_view_orders_id"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Order State : "
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/admin_view_orders_name"
+            android:layout_below="@+id/admin_view_orders_state"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Name : "
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/admin_view_orders_phone"
+            android:layout_below="@+id/admin_view_orders_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Phone No : "
+            android:textSize="14dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/admin_view_orders_total_price"
+            android:layout_alignParentEnd="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Total Price : "
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            android:id="@+id/admin_view_orders_address"
+            android:layout_below="@+id/admin_view_orders_phone"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address : "
+            android:textSize="14dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/admin_view_orders_date"
+            android:layout_below="@+id/admin_view_orders_address"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date : "
+            android:textSize="14dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/admin_view_show_order_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_below="@+id/admin_view_orders_date"
+            android:text="Show Product Details"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

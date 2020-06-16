@@ -1,0 +1,2 @@
+rootProject.name='ArtificalJewellery'
+include ':app'

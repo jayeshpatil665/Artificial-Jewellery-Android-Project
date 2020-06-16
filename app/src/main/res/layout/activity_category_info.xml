@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryInfoActivity">
+
+    <TextView
+        android:id="@+id/temp_text_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imitation Jewellery"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <RelativeLayout
+        android:id="@+id/fifthRelative"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/temp_text_one"
+        android:layout_height="160dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/neck_less" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/earing" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/finger_ring" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/temp_text_two"
+        android:layout_below="@+id/fifthRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:lineSpacingExtra="5sp"
+        android:padding="9sp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:text="Imitation Jewellery has received incredible love and attention of Indian women since centuries. The popularity of imitation jewellery increased tremendously with the longing desire of the upper middle-class category to adorn bold, beautiful yet affordable jewellery. And with industrial revolution and introduction of modern-day technology, the designs improved drastically and the demand surged .
+                        \n\n Here are the types of jewellery that are available :"
+        />
+    <TextView
+        android:layout_below="@+id/temp_text_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="11sp"
+        android:textAlignment="center"
+        android:lineSpacingExtra="5sp"
+        android:text="Necklace
+    Pendant set
+    Bangles
+    Earring
+    Mangalsutra
+    Kada
+    Bracelet
+    Payal
+    Belt
+    Jhuda
+    Hath Pan
+    Brooch
+    Finger ring
+    Damini
+    Tikka
+    Baju Band
+    Hair clip
+    Bore
+    Chain
+    Ear chain
+    Nose ring
+    Sindoor box
+    Hair brooch
+    Pasa
+    Kalangi . \nAdmin Contact : jayeshpatil665@gmail.com"
+        />
+</RelativeLayout>
