@@ -9,11 +9,6 @@ https://drive.google.com/file/d/1dsPELUoipCpSjKJvchK59CyCiNps3bZ5/view?usp=shari
 Project Report PDF : <br>
 https://drive.google.com/file/d/1xcoSlvQ-30t9I_OL1yh6VTn0gz3e_M4E/view?usp=sharing
 <br><br>
-
-View Full Project info :<br>
-https://drive.google.com/drive/folders/129A4PwHvxWUZS75FrNvXUWr1cPGY5F8B?usp=sharing
-<br><br>
-
 Download APK file and Project Report :<br>
 https://drive.google.com/file/d/15esk2o_OghnkZQB9BCE9aU1VJF3kJFCo/view?usp=sharing
 <br><br>
